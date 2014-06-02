@@ -1,0 +1,162 @@
+        html, body{
+            padding:0;
+            margin:0;
+            height:100%;
+            position:relative;
+            min-height: 750px;
+            min-width:950px;
+
+            _height:855px; /*Äëÿ ie6*/
+			background-color: white;
+            /*cursor: url(../images/cur.png), default;*/
+        }
+        #workplace{
+
+            min-height:100%;
+            _height:100%;
+        }
+        #main{
+		    min-height:700px;
+            padding-bottom:100px;
+			background-color: white;
+        }
+
+		/*Âåðõíèé ëåâûé*/
+        #upper{
+
+           min-height:700px;
+		  background-color: white;
+        }
+
+
+
+		/*Íèæíèé ëåâûé*/
+        #footer{
+
+
+     background-color: red;
+           height:100px;
+           margin-top:-100px;
+           position:relative;
+
+        }
+
+        #grad{
+            height: 50px;
+            width: 100%;
+         background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjIxMDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,33,9,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,33,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,33,9,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,33,9,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,33,9,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,33,9,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff2109',GradientType=0 ); /* IE6-8 */
+
+
+        }
+
+        #backlink{
+            width: 140px;
+        float: right;
+        margin-top: 35px;
+        margin-right: 1%;
+        color:white!important;
+text-decoration: none!important; /* Отменяем подчеркивание у ссылки */
+background-color: red;
+/*border-radius: 3px;*/
+  box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.4);
+  border: 2px solid white;
+text-align: center;
+height: 23px;
+        }
+
+
+        a{
+            color: white;
+            text-decoration: none!important;
+            /*cursor: url(../images/cur_hand.png), default;*/
+        }
+
+        #backlink a:hover{
+            text-decoration: none!important;
+         /*color: black;*/
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #back-top {
+
+
+
+    position: fixed;
+    bottom: 40%; /* îòñòóï êíîïêè ñíèçó */
+    right: -2%; /* îòñòóï êíîïêè ñëåâà (äëÿ óêàçàíèÿ îòñòóïà ñïðàâà
+èñïîëüçóéòå margin-right) */
+}
+
+#back-top a {
+    width: 108px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -webkit-transition: background 0.5s ease;
+-moz-transition: background 0.5s ease;
+transition: background 0.5s ease;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+/* èêîíêà ñòðåëêè (òåã span) */
+#back-top span {
+    width: 60px;
+    height: 121px;
+    display: block;
+    margin-bottom: 7px;
+    background:  url(../images/up-arrow.png) no-repeat center center;
+    /* â ñêîáêàõ óêàçûâàåì ïóòü ê èêîíêå */
+
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -webkit-transition: background 0.5s ease;
+-moz-transition: background 0.5s ease;
+transition: background 0.5s ease;
+
+    /* ñêðóãëåííûå óãëû  */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+#back-top a:hover span {
+    /*background:  url(../images/up-arrow_grey.png) no-repeat center center;*/
+    /*background-color: red;*/
+}
+
+
+
+
+

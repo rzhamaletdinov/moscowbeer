@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'PTSans_Bold';
+    src: url('../fonts/PTSans_Bold.eot');
+    src: local('☺'),
+         url('../fonts/PTSans_Bold.woff') format('woff'),
+         url('../fonts/PTSans_Bold.ttf') format('truetype'),
+         url('../fonts/PTSans_Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSans_Regular';
+    src: url('../fonts/PTSans_Regular.eot');
+    src: local('☺'),
+         url('../fonts/PTSans_Regular.woff') format('woff'),
+         url('../fonts/PTSans_Regular.ttf') format('truetype'),
+         url('../fonts/PTSans_Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSans_Italic';
+    src: url('../fonts/PTSans_Italic.eot');
+    src: local('☺'),
+         url('../fonts/PTSans_Italic.woff') format('woff'),
+         url('../fonts/PTSans_Italic.ttf') format('truetype'),
+         url('../fonts/PTSans_Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+body{
+	color: #333333;
+	line-height: 1.4em;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	line-height: 1.4em;
+	vertical-align: middle;
+}
+.inline-block{
+	display: inline-block;
+}
+	.ie7 .inline-block{
+		display: inline;
+		zoom: 1;
+	}
+.grey, .grey a{
+	color: #999;
+}
+.dark_grey, .dark_grey a{
+	color: #666;
+}
+.black{
+	color: #000;
+}
+.orange{
+	color: #ff7519;
+}
+.required{
+	color: #ff0000;
+}
+.error{
+	color: #ff0000;
+	font-size: 0.857em;
+}
+.clear{
+	clear: both;
+	width: 100%;
+	height: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.inverse, .inverse h2, .inverse a{
+	color: #fff;
+}
+.pie{
+	behavior: url(../PIE.htc);
+}
+h1,h2,h3,h4,h5{
+	font-family: "PTSans_Bold";
+
+}
+h1{
+	font-size: 2.143em;
+	padding: 0.33em 0 0.57em;
+}
+h2{
+	font-size: 1.714em;
+	margin-bottom: 0.5em;
+}
+h3{
+	font-size: 1.143em;
+	margin-bottom: 0.45em;
+}
+h3 a {
+
+}
+.shops_block h3 a {
+	text-decoration: none;
+}
+p{
+	margin-bottom: 0.7em;
+}
+a:hover, .inverse a:hover, a.active{
+	text-decoration: none;
+
+}
+.text_decor_none{
+	text-decoration: none;
+}
+b{
+	font-weight: normal;
+	font-family: "PTSans_Bold";
+}
+.push_right{
+	margin-left: 20px;
+}
+.float_inner{
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	margin-left: 6px;
+}
+* + ul{
+	margin-top: -5px;
+}
+
+	ul li{
+		padding-left: 16px;
+		padding-bottom: 5px;
+		background: url("../images/li_bullit.png") 0 0.428em no-repeat;
+	}
+	ul ul{
+		margin: 5px 0 -3px 9px;
+	}
+		ul ul li{
+			background-image: url("../images/li_sub_bullit.png");
+		}
+	.content_ul{
+		margin-right: 20px;
+	}
+.quote{
+	background: #efefef;
+	float: right;
+	width: 170px;
+	padding: 15px 20px 24px;
+	margin: 0 0 30px 30px;
+	line-height: 1.35em;
+	font-size: 1.285em;
+	font-family: "PTSans_Italic";
+}
+.content_area img{
+	float: left;
+	margin: 20px 22px 20px 0;
+}
+.content_area h1 + img{
+	float: none;
+	margin: 0 0 23px 0;
+}
+/*table*/
+/*	table{
+		color: #000;
+		font-size: 1em;
+		border-collapse: collapse;
+		width:100%;
+	}
+	table thead{
+		font-size: 0.857em;
+		font-family: "PTSans_Bold";
+		background-color: #efefef;
+		color: #666;
+	}
+	table td {
+		padding: 7px 30px 15px 7px;
+	}
+		table thead td{
+		padding-bottom: 7px;
+	}
+	table td:first-child{
+		width: 253px;
+	}
+	table td.action{
+		width: 150px;
+	}
+	table td.action a{
+		display: block;
+		margin-bottom: 6px;
+	}
+/*x_table*/*/
